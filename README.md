@@ -1,54 +1,90 @@
-# paper-minecraft-github-version
+# 🧱 Paper Minecraft JS
 
-このリポジトリは、Paper（Minecraftサーバーソフトウェア）のバージョン管理やカスタムビルドをGitHub上で扱うためのテンプレート/ユーティリティ群を提供します。主にローカルでのビルド手順やデプロイ、カスタムパッチの管理を想定しています。
+Scratchの「Paper Minecraft」を参考にして作った  
+**ブラウザで遊べる2Dマインクラフト風ゲーム**です。
 
-## 主要機能
-- Paperサーバーのソース取得とビルド手順の記載
-- カスタムパッチや設定の管理方法の提案
-- CI/CDや自動化（必要に応じて）への拡張ポイント
+👉 PC / iPad / スマホ 対応  
+👉 インストール不要  
+👉 HTML / CSS / JavaScript だけで動作
 
-## 前提条件
-- Java 17 以上がインストールされていること（Paperの対応バージョンに依存します）
-- Git がインストールされていること
-- 必要に応じて Gradle/Maven 等のビルドツール
+---
 
-## インストール / クローン
-```bash
-# リポジトリをクローン
-git clone https://github.com/bxk4jnbw9y-afk/paper-minecraft-github-version.git
-cd paper-minecraft-github-version
-```
+## 🎮 プレイはこちら
+🔗 https://# 🧱 Paper Minecraft JS
 
-## 使い方（例）
-1. ソースをダウンロード/初期化するスクリプトがあれば実行します（リポジトリ内のスクリプトを参照）。
-2. Javaとビルドツールを用いてビルドします。例（Gradleラッパーがある場合）:
+Scratchの「Paper Minecraft」を参考にして作った  
+**ブラウザで遊べる2Dマインクラフト風ゲーム**です。
 
-```bash
-# ビルド（プロジェクト依存）
-./gradlew build
-```
+👉 PC / iPad / スマホ 対応  
+👉 インストール不要  
+👉 HTML / CSS / JavaScript だけで動作
 
-3. 生成されたJarを Minecraft サーバーとして起動します。
+---
 
-```bash
-java -Xmx2G -jar build/libs/paper-xxxx.jar nogui
-```
+## 🎮 プレイはこちら
+🔗 https://bxk4jnbw9y-afk.github.io/paper-minecraft/
 
-## カスタムパッチ/設定管理
-- パッチやカスタムコードは専用のディレクトリ（例: `patches/`）に置き、READMEやコメントで運用ルールを明記してください。
-- ブランチ戦略（例: `main`=安定, `develop`=開発）を決めて運用すると管理が容易です。
+---
 
-## 貢献方法
-1. Issue を立てて目的や提案を共有してください。
-2. Fork を作成し、ブランチを切って作業してください。
-3. Pull Request を送る前に、変更点と動作確認手順を記載してください。
+## 🕹 操作方法
 
-## ライセンス
-- 明示されていない場合は、利用者と貢献者のためにライセンスを設定することを推奨します（例: MIT）。
+### PC
+- ⬅ / ➡：移動
+- ⬆ / Space：ジャンプ
+- クリック：ブロックを壊す / 置く
+
+### タブレット・スマホ
+- 画面タップ：ブロックを壊す / 置く
+- 画面左右タップ：移動（今後追加予定）
+
+---
+
+## 🧱 実装済み機能
+
+- 自動地形生成
+- ブロック破壊・設置
+- 当たり判定
+- インベントリ（簡易）
+- iPad対応（タッチ操作）
+
+---
+
+## 🚧 今後追加予定
+
+- 水・溶岩
+- モブ（敵）
+- クラフト
+- セーブ / ロード（QRコード）
+- PNGテクスチャ
+
+---
+
+## 🛠 使用技術
+
+- HTML5 Canvas
+- JavaScript（Vanilla JS）
+- CSS
+- GitHub Pages
+
+---
+
+## 📦 開発環境
+
+- iPad（Safari）
+- GitHub（Web版）
+- GitHub Pages
+
+---
+
+## 📜 ライセンス
+
+
+参考作品　https://scratch.mit.edu/projects/10128407/
+このプロジェクトは **学習・個人制作目的** です。  
+Minecraft は Mojang Studios の登録商標です。
+
 
 ## 連絡先 / 作者
 - リポジトリ所有者: @bxk4jnbw9y-afk
 
 ---
-
-このREADMEは基本テンプレートです。プロジェクト固有のビルド手順やスクリプト、ライセンス情報を追記することで完成度が上がります.
