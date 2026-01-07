@@ -22,7 +22,7 @@ Scratchの「Paper Minecraft」を参考にして作った
 ---
 
 ## 🎮 プレイはこちら
-🔗 https://bxk4jnbw9y-afk.github.io/paper-minecraft/
+🔗 [https://bxk4jnbw9y-afk.github.io/paper-minecraft/](https://bxk4jnbw9y-afk.github.io/paper-minecraft-github-version/)
 
 ---
 
