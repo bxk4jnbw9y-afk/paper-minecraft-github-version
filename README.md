@@ -9,20 +9,14 @@ Scratchの「Paper Minecraft」を参考にして作った
 
 ---
 
-## 🎮 プレイはこちら
-🔗 https://# 🧱 Paper Minecraft JS
-
+## 🎮 ゲームについて
+🔗 
 Scratchの「Paper Minecraft」を参考にして作った  
 **ブラウザで遊べる2Dマインクラフト風ゲーム**です。
 
 👉 PC / iPad / スマホ 対応  
 👉 インストール不要  
 👉 HTML / CSS / JavaScript だけで動作
-
----
-
-## 🎮 プレイはこちら
-🔗 [https://bxk4jnbw9y-afk.github.io/paper-minecraft/](https://bxk4jnbw9y-afk.github.io/paper-minecraft-github-version/)
 
 ---
 
